@@ -1,0 +1,91 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-size: 20px;
+  
+}
+.header{
+  height: 60px;
+  width:100%;
+  background-color: #1A132F;
+  display: flex;
+}
+.logo{
+  /* background-color: aqua; */
+  height: 60px;
+  width:90px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.logo img{
+  height: 35px;
+  width: 70px;
+  padding: 2px;
+ 
+}
+.content2{
+  /* background-color: red; */
+  height: 60px;
+  width: 90px;
+  display: flex;
+ 
+}
+.address{
+  padding-top: 10px;
+ padding-left: 10px;
+ 
+}
+.info{
+  margin-left: 5px;
+  padding-top: 5px;
+}
+.searchbar{
+  /* background-color: blue; */
+  height: 60px;
+  width: 58%;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.search{
+  /* background-color: orange;
+  height: 40px;
+  width: 65%; */
+  position: relative;
+
+}
+.search input{
+  height: 40px;
+  width:1000px;
+  outline: none;
+  border: 1px solid;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+.icon{
+  position: absolute;
+  left:970px;
+}
+.flag{
+  /* background-color: aqua;
+  height: 60px;
+  width: 90px; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.icon1{
+  height: 40px;
+ 
+} 
+.subheader{
+  height: 40px;
+  width: 100%;
+  background-color: #05595B;
+}
